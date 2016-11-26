@@ -7,9 +7,9 @@
 mean_dif(x, y)
 }
 \arguments{
-\item{x}{numeric}
+\item{x}{numeric, of any length}
 
-\item{y}{numeric}
+\item{y}{numeric, of any length}
 }
 \value{
 numeric
