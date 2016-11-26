@@ -47,3 +47,14 @@ The `freq_out()` function returns a frequency table as a well-named `tbl_df`:
 freq_out(x)
 ```
 
+The `mean_dif()` function returns a value that is the difference between the mean of two numeric levels supplied. Saving the time of two operations into 1. 
+
+```{r}
+x <- c(1,2,3,4,5)
+y <- c(1,1,1,1,2)
+
+(a <- mean(x)- mean(y))
+
+(b <- mean_dif(x,y))
+```
+
